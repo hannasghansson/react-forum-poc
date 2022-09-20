@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+* {
+    font-family: 'Quicksand', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------------------------------------------------------- */
+
+
+header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+
+   
+}
+
+/* --------------------------------------------------------------------------- */
+ol {
+	list-style: none;
+	counter-reset: op-order-list;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 3vmin;
+    
+}
+
+ol li {
+    counter-increment: op-order-list;
+    display: flex;
+    font-size: 1rem; 
+    margin: 3vmin;
+    padding: 4vmin 4vmin;
+    transition: transform 1.2s ease;
+
+}
+
+li::before {
+	content: counter(op-order-list);
+    width: 8vmin;
+	height: 10vmin;
+    padding-left: 1.6vmin;
+    margin-right: 2vmin;
+    text-align: center;
+	color: #1d1e22;
+    font-size: 2rem;
+	display: inline-block;
+	box-sizing: border-box;
+	transition: border-radius 1s ease, background 2s ease;
+
+}
+
+li:hover {
+	border-radius: 4vmin;
+	/*transform: translatex(6vmin);*/ 
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    font-size: large;
+}
+
+li:hover::before {
+
+
+        background: linear-gradient(
+        135deg,
+        #7F00FF 0%,
+        #E100FF 100%
+    );
+        /*
+		rgba(245, 177, 97, 1) 0%,
+		rgba(236, 54, 110, 1) 100%
+    
+	);
+    */
+	padding-left: 1vmin;
+	/*border-radius: 0% 50% 50% 50%; */
+
+    border-radius: 56% 44% 73% 27% / 45% 68% 32% 55%;
+	color: #1d1e22;
+  
+}
+
+/* --------------------------------------------------------------------------- */

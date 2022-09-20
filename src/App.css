@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+* {
+    font-family: 'Quicksand', sans-serif; 
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 4%;
+}
+
+
+.postContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+li {
+  margin-bottom: 5%;
+}
+ol {
+  width: 60%;
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+}
+ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: red;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*
+.postContainer ol {
+  counter-reset: index; 
+  text-decoration: none;
+  flex-wrap: wrap;  
+  width: 60%;
+}
+
+.postContainer li{
+  margin-bottom: 4%;
+}
+
+*/
+
+/*.App {
+  text-align: center;
+  background-color:#072d3d;
+  min-height: 800px;
+}
+
+
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +106,4 @@
     transform: rotate(360deg);
   }
 }
+*/
